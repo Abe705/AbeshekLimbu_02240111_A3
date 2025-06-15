@@ -216,8 +216,8 @@ def select_account_gui(accounts):
 
 if __name__ == "__main__":
     accounts = {
-        "Alice": BankAccount("Alice", 1000),
-        "Bob": BankAccount("Bob", 500),
-        "Charlie": BankAccount("Charlie", 750)
+        "MBOB": BankAccount("MBOB", 1000),
+        "NBob": BankAccount("NBob", 500),
+        "GOBOB": BankAccount("GOBOB", 750)
     }
     select_account_gui(accounts)
